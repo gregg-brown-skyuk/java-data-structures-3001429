@@ -18,7 +18,7 @@ public class CollectionsExercise {
   }
 
   void removeItemFromFrontOfQueue(Queue<Integer> queue) {
-    queue.remove();
+    queue.poll();
   }
 
   void addItemToTreeSet(Set<String> set, String item) {
